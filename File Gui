@@ -1,0 +1,300 @@
+local AimWare = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_2 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton_3 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton_5 = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextButton_7 = Instance.new("TextButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local Image = Instance.new("ImageLabel")
+local Image_2 = Instance.new("ImageLabel")
+local Image_3 = Instance.new("ImageLabel")
+
+AimWare.Name = "AimWare"
+AimWare.Parent = game.CoreGui
+AimWare.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = AimWare
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(255, 183, 0)
+Frame.Position = UDim2.new(0.549047589, 0, 0.273905516, 0)
+Frame.Size = UDim2.new(0, 231, 0, 255)
+Frame.Active = true
+Frame.Draggable = true
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.Position = UDim2.new(0.329004318, 0, 0.00392156886, 0)
+ImageLabel.Size = UDim2.new(0, 76, 0, 54)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12556702900"
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton.Position = UDim2.new(0.0346320346, 0, 0.215686277, 0)
+TextButton.Size = UDim2.new(0, 86, 0, 17)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel.Parent = TextButton
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 92, 0, 17)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.Text = "AutoAim [Q]"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_2.Position = UDim2.new(0.0346320346, 0, 0.31764707, 0)
+TextButton_2.Size = UDim2.new(0, 86, 0, 17)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_2.Parent = TextButton_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 94, 0, 17)
+TextLabel_2.Font = Enum.Font.Arcade
+TextLabel_2.Text = "Players ESP"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_3.Position = UDim2.new(0.0346320346, 0, 0.419607848, 0)
+TextButton_3.Size = UDim2.new(0, 86, 0, 17)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = ""
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+TextButton_3.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_3.Parent = TextButton_3
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 80, 0, 17)
+TextLabel_3.Font = Enum.Font.Arcade
+TextLabel_3.Text = "Trash Talk"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_4.Position = UDim2.new(0.0346320346, 0, 0.525490224, 0)
+TextButton_4.Size = UDim2.new(0, 86, 0, 17)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = ""
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+TextButton_4.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_4.Parent = TextButton_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 46, 0, 17)
+TextLabel_4.Font = Enum.Font.Arcade
+TextLabel_4.Text = "Emoji"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_5.Position = UDim2.new(0.0346320346, 0, 0.631372571, 0)
+TextButton_5.Size = UDim2.new(0, 86, 0, 17)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = ""
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+TextButton_5.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_5.Parent = TextButton_5
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0, 60, 0, 17)
+TextLabel_5.Font = Enum.Font.Arcade
+TextLabel_5.Text = "Macro X"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextSize = 14.000
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_6.Position = UDim2.new(0.0346320346, 0, 0.741176486, 0)
+TextButton_6.Size = UDim2.new(0, 86, 0, 17)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = ""
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+TextButton_6.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_6.Parent = TextButton_6
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_6.Size = UDim2.new(0, 58, 0, 17)
+TextLabel_6.Font = Enum.Font.Arcade
+TextLabel_6.Text = "Low GFX"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 14.000
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 183, 0)
+TextButton_7.Position = UDim2.new(0.0346320346, 0, 0.850980401, 0)
+TextButton_7.Size = UDim2.new(0, 86, 0, 17)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = ""
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+TextButton_7.MouseButton1Down:connect(function()
+	print("AimWare 3.0")
+end)
+
+TextLabel_7.Parent = TextButton_7
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.Position = UDim2.new(1.04651165, 0, 0, 0)
+TextLabel_7.Size = UDim2.new(0, 29, 0, 17)
+TextLabel_7.Font = Enum.Font.Arcade
+TextLabel_7.Text = "Fly"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextSize = 14.000
+
+Image.Name = "Image"
+Image.Parent = Frame
+Image.BackgroundColor3 = Color3.fromRGB(140, 0, 0)
+Image.BackgroundTransparency = 1.000
+Image.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Image.BorderSizePixel = 0
+Image.Position = UDim2.new(0, 1, 0, 0)
+Image.Size = UDim2.new(0.952380955, 10, 0.996078432, 0)
+Image.Image = "rbxassetid://125828109"
+
+Image_2.Name = "Image"
+Image_2.Parent = Frame
+Image_2.BackgroundColor3 = Color3.fromRGB(140, 0, 0)
+Image_2.BackgroundTransparency = 1.000
+Image_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Image_2.BorderSizePixel = 0
+Image_2.Position = UDim2.new(0, 1, 0, 0)
+Image_2.Size = UDim2.new(0.952380955, 10, 0.996078432, 0)
+Image_2.Image = "rbxassetid://125828109"
+
+Image_3.Name = "Image"
+Image_3.Parent = Frame
+Image_3.BackgroundColor3 = Color3.fromRGB(140, 0, 0)
+Image_3.BackgroundTransparency = 1.000
+Image_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Image_3.BorderSizePixel = 0
+Image_3.Position = UDim2.new(0, 1, 0, 0)
+Image_3.Size = UDim2.new(0.952380955, 10, 0.996078432, 0)
+Image_3.Image = "rbxassetid://125828109"
+
+local function YENPG_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService("UserInputService")
+	function dragify(Frame)
+	    dragToggle = nil
+	    local dragSpeed = 0
+	    dragInput = nil
+	    dragStart = nil
+	    local dragPos = nil
+	    function updateInput(input)
+	        local Delta = input.Position - dragStart
+	        local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	        game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.25), {Position = Position}):Play()
+	    end
+	    Frame.InputBegan:Connect(function(input)
+	        if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+	            dragToggle = true
+	            dragStart = input.Position
+	            startPos = Frame.Position
+	            input.Changed:Connect(function()
+	                if input.UserInputState == Enum.UserInputState.End then
+	                    dragToggle = false
+	                end
+	            end)
+	        end
+	    end)
+	    Frame.InputChanged:Connect(function(input)
+	        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	            dragInput = input
+	        end
+	    end)
+	    game:GetService("UserInputService").InputChanged:Connect(function(input)
+	        if input == dragInput and dragToggle then
+	            updateInput(input)
+	        end
+	    end)
+	end
+	
+	dragify(script.Parent)
+end
+coroutine.wrap(YENPG_fake_script)()
+local function OONL_fake_script() -- Frame.Keybind Script 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent.Parent.Frame -- Make this you frame Name!
+	local hotkey = Enum.KeyCode.Q -- Make this whatever you want your keybind to be! 
+	
+	local UIS = game:GetService("UserInputService")
+	local open = false
+	
+	
+	
+	UIS.InputBegan:Connect(function(key, gp)
+	 if key.KeyCode == hotkey then
+	  if UIS:GetFocusedTextBox() == nil then
+	   if open == false then
+	    open = true 
+	    frame.Visible = open
+	   elseif open == true then
+	    open = false
+	    frame.Visible = open
+	   end
+	  end
+	 end
+	end)
+	
+end
+coroutine.wrap(OONL_fake_script)()
